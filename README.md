@@ -31,7 +31,7 @@
 
 Автоматизация
 -------------
-[SeaLant](https://github.com/saby/SeaLant) - фреймворк на Python для выявление утечек памяти через тесты на Selenium
+[SeaLant](https://github.com/saby/SeaLant) - фреймворк на Python для выявление утечек памяти через тесты на Selenium  
 [Drool](https://github.com/samccone/drool) - выявляет утечки DOM и подписок  
 [BLeak](https://github.com/plasma-umass/BLeak) - выявление утечек памяти во фронтенде [описние](https://jvilk.com/assets/pdf/bleak.pdf), официальный [сайт](http://plasma-umass.org/BLeak/)  
 [Browser’s Memory Profiling Automation](http://www.theseus.fi/bitstream/handle/10024/133482/Browsers%20Automated%20Memory%20Profiling.pdf;jsessionid=BC27E5B30358CA5ED1C302468642EA94?sequence=1), Lucy Liu - достаточно подробное описание процесса автоматизации  
