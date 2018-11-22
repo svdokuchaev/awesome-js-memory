@@ -1,80 +1,71 @@
-# awesome-js-memory
+﻿# awesome-js-memory
 Resources about memory and memory leaks in Javascript
 
 JS memory
 ---------
-[MDN Memory Management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management) - �������� ������ ��� ������ � js  
+[MDN Memory Management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management) - короткая статья про память в js  
 [How To Write Fast, Memory-Efficient JavaScript](https://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/), Addy Osmani  
-https://chromium.googlesource.com/chromium/src/+/master/docs/memory/README.md  
-https://habr.com/company/ruvds/blog/338150/  
-https://medium.com/devschacht/%D1%81%D0%B1%D0%BE%D1%80%D1%89%D0%B8%D0%BA-%D0%BC%D1%83%D1%81%D0%BE%D1%80%D0%B0-%D0%B2-v8-%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-d3e496a4d378  
-https://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/  
-https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec  
-https://medium.com/@tomlagier/a-new-way-to-debug-memory-issues-with-web-apps-4e29df964af2 - ��� ������������  
-https://stackoverflow.com/questions/2800463/how-variables-are-allocated-memory-in-javascript  
-https://medium.com/fhinkel/confused-about-stack-and-heap-2cf3e6adb771  
-https://hackernoon.com/a-tale-of-javascript-performance-6011615523e8  
+[Memory in Chromium](https://chromium.googlesource.com/chromium/src/+/master/docs/memory/README.md) - всё про работу с памятью в проекте Chromium  
+[Сборщик мусора в V8, иллюстрированное руководство](https://medium.com/devschacht/%D1%81%D0%B1%D0%BE%D1%80%D1%89%D0%B8%D0%BA-%D0%BC%D1%83%D1%81%D0%BE%D1%80%D0%B0-%D0%B2-v8-%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-d3e496a4d378) - перевод статьи Ирины Шестак  
+[Understanding Javascript Function Executions — Call Stack, Event Loop , Tasks & more](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec), Gaurav Pandvia - отличная иллюстрация работы стека, кучи и цикла событий в js  
+[A New Way to Debug Memory Issues with Web Apps](https://medium.com/@tomlagier/a-new-way-to-debug-memory-issues-with-web-apps-4e29df964af2), Tom Lagier - красивая визуализация кучи js
+[How variables are allocated memory in Javascript?](https://stackoverflow.com/questions/2800463/how-variables-are-allocated-memory-in-javascript) - отличный ответ со stackoverflow  
+[Confused about Stack and Heap?](https://medium.com/fhinkel/confused-about-stack-and-heap-2cf3e6adb771), Franziska Hinkelmann - чем стек отличается от кучи на пальцах  
+[Choosing a Visualization Method for Memory Profiles](https://hackernoon.com/a-tale-of-javascript-performance-6011615523e8), Tom Lagier - различные способы визуализировать память в js  
   
 
 JS memory leak
 --------------
-https://dev.to/kepta/a-toddlers-guide-to-memory-leaks-in-javascript-25lf
-https://medium.com/outsystems-experts/beyond-memory-leaks-in-javascript-d27fd48ae67e
-https://antongorbikov.wordpress.com/2015/08/27/about-memory-leaks-again/
-https://www.dynatrace.com/news/blog/understanding-garbage-collection-and-hunting-memory-leaks-in-node-js/
-https://jechnolog.com/2016/01/17/debugging-memory-leaks-when-the-famous-3-snapshot-technique-can-cost-you-days-of-development/
-https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/
-https://stackoverflow.com/questions/19621074/finding-javascript-memory-leaks-with-chrome
-https://habr.com/company/yandex/blog/195198/
-http://crockford.com/javascript/memory/leak.html
-https://dev.to/kepta/a-toddlers-guide-to-memory-leaks-in-javascript-25lf    
-https://stackoverflow.com/questions/15970525/how-to-find-js-memory-leaks
-http://www.javascriptkit.com/javatutors/closuresleak/
-https://medium.com/@cherniavskii/javascript-console-log-memory-leak-de3433efb278
-https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec
-https://habr.com/post/309318/
+[A toddlers guide to memory leaks in Javascript](https://dev.to/kepta/a-toddlers-guide-to-memory-leaks-in-javascript-25lf), Kushan Joshi - про утечки памяти для маленьких  
+[Beyond Memory Leaks in JavaScript](https://medium.com/outsystems-experts/beyond-memory-leaks-in-javascript-d27fd48ae67e), Daniel Reis - вводная статья про память и утечки с гифками и танцами  
+[Memory leaks and memory management in JavaScript](https://antongorbikov.wordpress.com/2015/08/27/about-memory-leaks-again/), Anton Gorbikov  
+[Understanding Garbage Collection and hunting Memory Leaks in Node.js](https://www.dynatrace.com/news/blog/understanding-garbage-collection-and-hunting-memory-leaks-in-node-js/), Daniel Khan - про gc и утечки памяти в node.js  
+[4 Types of Memory Leaks in JavaScript and How to Get Rid Of Them](https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/), Sebastián Peyrott - про типовые причины утечек памяти, [[перевод](https://habr.com/post/309318/)]  
+[Как находить и устранять утечки памяти на примере Яндекс.Почты](https://habr.com/company/yandex/blog/195198/)  
+[Be careful with console logs](https://medium.com/@cherniavskii/javascript-console-log-memory-leak-de3433efb278), Andrew Cherniavski - про утечки памяти из-за js-консоли  
+[How JavaScript works: memory management + how to handle 4 common memory leaks](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec), Alexander Zlatkov - про типичные причины утечек, [[https://habr.com/company/ruvds/blog/338150/](перевод)]  
 
 JS memory leak in specific application
 --------------------------------------
-https://blog.swmansion.com/hunting-js-memory-leaks-in-react-native-apps-bd73807d0fde
-https://content.pivotal.io/blog/hunting-memory-leaks-in-backbone
-https://www.alexkras.com/simple-guide-to-finding-a-javascript-memory-leak-in-node-js/
-https://habr.com/company/yandex/blog/195198/
-https://www.alexkras.com/simple-guide-to-finding-a-javascript-memory-leak-in-node-js/
-https://www.html5rocks.com/en/tutorials/memory/effectivemanagement/
+[Hunting JS memory leaks in React Native apps](https://blog.swmansion.com/hunting-js-memory-leaks-in-react-native-apps-bd73807d0fde), Krzysztof Magiera  
+[Hunting Memory Leaks in Backbone](https://content.pivotal.io/blog/hunting-memory-leaks-in-backbone), Charles Hansen  
+[Simple Guide to Finding a JavaScript Memory Leak in Node.js](https://www.alexkras.com/simple-guide-to-finding-a-javascript-memory-leak-in-node-js/), Alex Kras  
+[Fixing Memory Leaks in AngularJS and other JavaScript Applications](https://www.dwmkerr.com/fixing-memory-leaks-in-angularjs-applications/), Dave Kerr
 
-Tools
------
-https://github.com/samccone/drool - node.js memory leak detection tool
-https://jvilk.com/assets/pdf/bleak.pdf
-http://plasma-umass.org/BLeak/
-https://github.com/plasma-umass/BLeak
-http://www.theseus.fi/bitstream/handle/10024/133482/Browsers%20Automated%20Memory%20Profiling.pdf;jsessionid=BC27E5B30358CA5ED1C302468642EA94?sequence=1
-https://github.com/Doist/JavaScript-memory-leak-checker
-https://github.com/airhorns/watson
-https://github.com/azer/memdiff
-https://github.com/NV/setInterval-sniffer
-https://github.com/joyeecheung/v8-mat
-https://github.com/andywer/leakage
+Автоматизация
+-------------
+[Drool](https://github.com/samccone/drool) - выявление утечек памяти
+[BLeak](https://github.com/plasma-umass/BLeak) - выявление утечек памяти во фронтенде [описние](https://jvilk.com/assets/pdf/bleak.pdf), официальный [сайт](http://plasma-umass.org/BLeak/)  
+[Browser’s Memory Profiling Automation  
+](http://www.theseus.fi/bitstream/handle/10024/133482/Browsers%20Automated%20Memory%20Profiling.pdf;jsessionid=BC27E5B30358CA5ED1C302468642EA94?sequence=1), Lucy Liu - достаточно подробное описание процесса автоматизации  
+[Watson](https://github.com/airhorns/watson) - исследует производительность js в целом и утечки памяти в частности  
+[memdiff](https://github.com/azer/memdiff) - юнит-тесты для обнаружения утечек памяти  
+[Automatic leak detection for V8 heap snapshots](https://github.com/joyeecheung/v8-mat) - помогает по снапшоту v8 понять, кто виноват в утечке  
+[Leakage](https://github.com/andywer/leakage) - ещё один инструмент для выявления утечек памяти в node.js  
 
 Browser related
 ---------------
-https://www.online-tech-tips.com/google-softwaretips/google-chrome-running-too-many-processes/
-https://habr.com/company/yandex/blog/423507/
-https://blog.logrocket.com/isolating-memory-leaks-with-chromes-allocation-timeline-244fa9c48e8e
-https://addyosmani.com/blog/taming-the-unicorn-easing-javascript-memory-profiling-in-devtools/
-https://stackoverflow.com/questions/19621074/finding-javascript-memory-leaks-with-chrome
-https://developers.google.com/web/tools/chrome-devtools/memory-problems/
-https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots
-https://developer.chrome.com/devtools/docs/heap-profiling
-https://developer.chrome.com/devtools/docs/demos/memory/example11
-https://developer.chrome.com/devtools/docs/heap-profiling-dom-leaks
-https://developers.google.com/web/tools/chrome-devtools/memory-problems/memory-101
-https://dreamix.eu/blog/dreamix/hunting-memory-leaks-in-javascript-using-chrome-devtools
-https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/memory
-https://github.com/GoogleChrome/devtools-docs/blob/master/docs/javascript-memory-profiling.md
+[Isolating memory leaks with Chrome’s Allocation Timeline](https://blog.logrocket.com/isolating-memory-leaks-with-chromes-allocation-timeline-244fa9c48e8e), Renzo Lucioni  
+[Taming The Unicorn: Easing JavaScript Memory Profiling In Chrome DevTools](https://addyosmani.com/blog/taming-the-unicorn-easing-javascript-memory-profiling-in-devtools/), Addy Osmani  
+[Fix Memory Problems in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/memory-problems/)  
+[Memory in Edge](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/memory) - про анализ памяти в браузере от microsoft  
 
 Talks & slides
 --------------
-https://docs.google.com/presentation/d/1wUVmf78gG-ra5aOxvTfYdiLkdGaR9OhXRnOlIcEmu2s/pub?start=false&loop=false&delayms=3000&slide=id.g1d65bdf6_0_0
-https://github.com/gonzaloruizdevilla/debuggingmemory
+[Finding and debugging memory leaks in JavaScript with Chrome DevTools](http://slides.com/gruizdevilla/memory#/), Gonzalo Ruiz de Villa  
+[A Trip Down Memory Lane with Gmail and Chrome DevTools](https://www.youtube.com/watch?v=x9Jlu_h_Lyw) (2013) [42min] - доклад с Google I/O и связанная презентация [BloatBusters: Eliminating memory leaks in Gmail](https://docs.google.com/presentation/d/1wUVmf78gG-ra5aOxvTfYdiLkdGaR9OhXRnOlIcEmu2s/pub?start=false&loop=false&delayms=3000&slide=id.g1d65bdf6_0_0), Loreena Lee и Robert Hundt  
+[Memory Management Masterclass with Addy Osmani](https://www.youtube.com/watch?v=LaxbdIyBkL0) (2014) [55min] - доступны [слайды](https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass) и [примеры кода](https://github.com/addyosmani/memory-mysteries)  
+[The Breakpoint, Ep. 8: Memory Profiling with Chrome DevTools](https://www.youtube.com/watch?v=L3ugr9BJqIs) (2013) [26min]  
+[Profiling in the wild by Sam Saccone](https://www.youtube.com/watch?v=OLWEyH7_4e0) (2015) [8min]  
+
+Мусор
+-----
+https://stackoverflow.com/questions/19621074/finding-javascript-memory-leaks-with-chrome  
+http://crockford.com/javascript/memory/leak.html  
+http://www.javascriptkit.com/javatutors/closuresleak/  
+https://www.html5rocks.com/en/tutorials/memory/effectivemanagement/
+https://github.com/Doist/JavaScript-memory-leak-checker
+https://github.com/NV/setInterval-sniffer
+https://habr.com/company/yandex/blog/423507/
+https://stackoverflow.com/questions/19621074/finding-javascript-memory-leaks-with-chrome
+https://dreamix.eu/blog/dreamix/hunting-memory-leaks-in-javascript-using-chrome-devtools
