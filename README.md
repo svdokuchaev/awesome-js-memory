@@ -1,9 +1,9 @@
 ﻿# awesome-js-memory
-Resources about memory and memory leaks in Javascript
+Ресурсы про память и утечки в JavaScript
 
 Теория
 ------
-[Memory Management Reference](https://www.memorymanagement.org/) - общая теория об устройстве памяти
+[Memory Management Reference](https://www.memorymanagement.org/) - общая теория об устройстве памяти  
 [MDN Memory Management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management) - короткая статья про память в js  
 [Сборщик мусора в V8, иллюстрированное руководство](https://medium.com/devschacht/%D1%81%D0%B1%D0%BE%D1%80%D1%89%D0%B8%D0%BA-%D0%BC%D1%83%D1%81%D0%BE%D1%80%D0%B0-%D0%B2-v8-%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-d3e496a4d378) - перевод статьи Ирины Шестак  
 [Understanding Javascript Function Executions — Call Stack, Event Loop , Tasks & more](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec), Gaurav Pandvia - отличная иллюстрация работы стека, кучи и цикла событий в js  
@@ -31,6 +31,7 @@ Resources about memory and memory leaks in Javascript
 
 Автоматизация
 -------------
+[SeaLant](https://github.com/saby/SeaLant) - фреймворк на Python для выявление утечек памяти через тесты на Selenium
 [Drool](https://github.com/samccone/drool) - выявляет утечки DOM и подписок  
 [BLeak](https://github.com/plasma-umass/BLeak) - выявление утечек памяти во фронтенде [описние](https://jvilk.com/assets/pdf/bleak.pdf), официальный [сайт](http://plasma-umass.org/BLeak/)  
 [Browser’s Memory Profiling Automation](http://www.theseus.fi/bitstream/handle/10024/133482/Browsers%20Automated%20Memory%20Profiling.pdf;jsessionid=BC27E5B30358CA5ED1C302468642EA94?sequence=1), Lucy Liu - достаточно подробное описание процесса автоматизации  
