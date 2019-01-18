@@ -49,6 +49,7 @@
 [Taming The Unicorn: Easing JavaScript Memory Profiling In Chrome DevTools](https://addyosmani.com/blog/taming-the-unicorn-easing-javascript-memory-profiling-in-devtools/), Addy Osmani  
 [Fix Memory Problems in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/memory-problems/)  
 [Memory in Edge](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/memory) - про анализ памяти в браузере от microsoft  
+[Firefox](https://wiki.mozilla.org/DevTools/Memory/Roadmap#Performance_Tools) - вики статья про инструменты анализа памяти в браузере Fx
 
 Презентации
 -----------
